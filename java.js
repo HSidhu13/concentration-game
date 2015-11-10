@@ -10,13 +10,11 @@ for (var i = 0; i < 10; i++)
 {
 	im[i] = new Image();
 	im[i].src = tile[i]; 
-	tile[i] = '<img src="'+tile[i]+'" width="100" height="150" alt="tile" \/>'; 
+	tile[i] = '<img src="'+tile[i]+'" width="100" height="150" alt="tile" \/>';
 	tile[i+10] = tile[i];
 } 
 
- 
-	
-	var a, b, c, d, e, f, g; 
+    var a, b, c, d, e, f, g; 
 	window.onload=start; 
 	function start() 
 	{
